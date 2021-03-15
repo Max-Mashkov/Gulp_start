@@ -1,8 +1,44 @@
-div {
-  width: 100px;
-  height: 100px;
-  background-image: url("../../dist/img/icons/icons.svg");
+@font-face {
+  font-family: "heebo";
+  font-display: swap;
+  src: url("../fonts/heebo-black.woff") format("woff"), url("../fonts/heebo-black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "heebo";
+  font-display: swap;
+  src: url("../fonts/heebo-medium.woff") format("woff"), url("../fonts/heebo-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "heebo";
+  font-display: swap;
+  src: url("../fonts/heebo-bold.woff") format("woff"), url("../fonts/heebo-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "heebo";
+  font-display: swap;
+  src: url("../fonts/heebo-regular.woff") format("woff"), url("../fonts/heebo-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.test1 {
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+}
+
+.test2 {
+  font-family: "Heebo", sans-serif;
+  font-weight: 900;
 }
 @supports (-webkit-appearance:none){
-div{background-image:url("../../dist/img/icons/icons.svg")}
+
 }
